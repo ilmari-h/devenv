@@ -9,6 +9,9 @@ vim.opt.undofile = true
 vim.opt.scrolloff = 10 -- margin of scroll
 vim.opt.autoread = true
 
+vim.opt.cmdheight = 0
+vim.opt.shm = "ltToOCF" -- don't show annoying propts
+
 -- case-insensitive search in lowercase.
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
@@ -22,8 +25,8 @@ vim.opt.number = true
 -- keys
 local keymap = vim.keymap
 keymap.set('n', '<leader>n', ':noh<cr>')
-keymap.set('n', '<C-l>', ':bn<cr>')
-keymap.set('n', '<C-h>', ':bp<cr>')
+keymap.set('n', '<C-l>', ':BufferNext<cr>')
+keymap.set('n', '<C-h>', ':BufferPrevious<cr>')
 keymap.set('n', '<C-x>', ':bd<cr>')
 keymap.set('n', '<C-t>', ':tabnew<cr>')
 

@@ -28,6 +28,7 @@ require("lazy").setup({
 	{
 		{ import = "plugins" },
 		{ import = "plugins.lsp" },
+		{ import = "plugins.copilot" },
 	}
   },
   -- Configure any other settings here. See the documentation for more details.

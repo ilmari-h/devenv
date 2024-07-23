@@ -40,9 +40,6 @@ return {
       },
     })
 
-	-- auto-install configured servers (with lspconfig)
-	automatic_installation = true -- different from ensure_installed
-
     -- mason_tool_installer.setup({
     --   ensure_installed = {
     --     "prettier", -- prettier formatter

@@ -27,13 +27,11 @@ return {
 			lualine_c = {
 				{
 					'filename',
-					color = { fg = 'black', bg = 'white'}
 				}
 			},
 			lualine_x = {
 				{
 					'filetype',
-					color = { fg = 'black', bg = 'white' }
 				}
 			},
 			lualine_y = {'progress'},

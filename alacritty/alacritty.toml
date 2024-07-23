@@ -1,0 +1,57 @@
+[colors.bright]
+black = "#767C77"
+blue = "#28C9FF"
+cyan = "#33FFFF"
+green = "#1AFFA3"
+magenta = "#FFAA54"
+red = "#FF1A75"
+white = "#F9F9F9"
+yellow = "#FFFF00"
+
+[colors.normal]
+black = "#232323"
+blue = "#00BFFF"
+cyan = "#00FFFF"
+green = "#00CC7A"
+magenta = "#FF7432"
+red = "#FF5454"
+white = "#BFBFBF"
+yellow = "#FFD700"
+
+[colors.primary]
+background = "#121212"
+foreground = "#BFBFBF"
+
+[env]
+TERM = "alacritty"
+
+[font]
+size = 12
+
+[font.normal]
+family = "UbuntuMono Nerd Font Mono"
+style = "Regular"
+
+[font.bold]
+family = "UbuntuMono Nerd Font Mono"
+style = "Bold"
+
+[font.italic]
+family = "UbuntuMono Nerd Font Mono"
+style = "Italic"
+
+[font.bold_italic]
+family = "UbuntuMono Nerd Font Mono"
+style = "Bold Italic"
+
+[window]
+opacity = 1
+startup_mode = "Windowed"
+
+[window.dimensions]
+columns = 90
+lines = 24
+
+[window.padding]
+x = 4
+y = 4
