@@ -11,6 +11,7 @@ vim.opt.autoread = true
 
 vim.opt.cmdheight = 0
 vim.opt.shm = "ltToOCF" -- don't show annoying propts
+vim.opt.autoread = true
 
 -- case-insensitive search in lowercase.
 vim.opt.ignorecase = true
@@ -34,3 +35,4 @@ vim.cmd('command W w')
 vim.cmd('command Q qa')
 
 
+vim.api.nvim_set_hl(0, "MatchParen", { bg="white" })
